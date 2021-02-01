@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Formulario de contacto</string>
+    <string name="nombre">Nombre completo</string>
+    <string name="fecha">Fecha de nacimiento</string>
+    <string name="telefono">Teléfono</string>
+    <string name="email">Email</string>
+    <string name="descripcion">Descripción</string>
+
+    <string name="btn1">Enviar</string>
+    <string name="btn2">Editar</string>
+</resources>

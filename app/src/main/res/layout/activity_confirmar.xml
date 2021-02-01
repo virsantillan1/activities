@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/margin_top"
+    tools:context=".ConfirmarDatos"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:id="@+id/confirmarNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/confirmarSize"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/margin_left"
+        />
+
+
+    <TextView
+        android:id="@+id/confirmarFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/confirmarSize"
+        android:layout_marginStart="@dimen/margin_left"
+
+        />
+
+    <TextView
+        android:id="@+id/confirmarTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/confirmarSize"
+        android:layout_marginStart="@dimen/margin_left"
+
+        />
+
+    <TextView
+        android:id="@+id/confirmarEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/confirmarSize"
+        android:layout_marginStart="@dimen/margin_left"
+
+        />
+
+    <TextView
+        android:id="@+id/confirmarDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/confirmarSize"
+        android:layout_marginStart="@dimen/margin_left"
+
+        />
+
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn2"
+        android:onClick="onClick"
+        />
+
+
+</LinearLayout>
+
+
